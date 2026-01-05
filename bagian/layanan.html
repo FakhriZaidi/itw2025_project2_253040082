@@ -1,0 +1,449 @@
+<!doctype html>
+<html class=" scroll-smooth">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="../src/output.css" rel="stylesheet">
+</head>
+
+<body class="bg-dark">
+    <!-- header start -->
+    <header class="absolute top-0 left-0 w-full flex items-center z-10">
+        <div class="container">
+            <div class="flex items-center justify-between relative py-5 lg:py-0">
+                <div class="px-4">
+                    <a href="#services" class="fon-bold text-lg text-primary block"><img src="../img/assets/logo.png"
+                            alt="Logo" class="h-9 md:h-11"></a>
+                </div>
+
+                <div class="flex items-center px-4">
+                    <button id="hamburger" name="hamburger" type="button" class="block absolute right-4 lg:hidden">
+                        <span class="hamburger-line transition duration-300 ease-in-out origin-top-left"></span>
+                        <span class="hamburger-line transition duration-300 ease-in-out"></span>
+                        <span class="hamburger-line transition duration-300 ease-in-out origin-bottom-left "></span>
+                    </button>
+
+                    <nav id="nav-menu"
+                        class="hidden absolute py-5 bg-third  rounded-lg max-w-[250px] w-full right-2 top-full lg:block lg:static lg:bg-transparent lg:max-w-full lg:shadow-none lg:rounded-none">
+                        <ul class="block lg:flex">
+                            <li class="group">
+                                <a href="../index.html#home"
+                                    class="text-base text-white py-2 mx-8 flex hover:text-primary">Beranda</a>
+                            </li>
+                            <li class="group">
+                                <a href="../index.html#about"
+                                    class="text-base text-white py-2 mx-8 flex hover:text-primary">Tentang</a>
+                            </li>
+
+                            <li class="relative top-2 mx-6 group hidden lg:block">
+                                <a href="../index.html#services"
+                                    class="flex items-center gap-1 text-white hover:text-primary transition focus:outline-none ">
+                                    Layanan
+                                    <svg class="w-4 h-4 transition-transform duration-200 group-hover:rotate-180"
+                                        fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                                            d="M19 9l-7 7-7-7"></path>
+                                    </svg>
+                                </a>
+
+                                <div
+                                    class="absolute left-0 mt-2 w-48 bg-dark border border-slate-900 rounded-lg shadow-xl opacity-0 invisible group-hover:opacity-100 group-hover:visible transition-all duration-300 transform translate-y-2 group-hover:translate-y-0">
+                                    <div class="py-1">
+                                        <a href="#prewedding"
+                                            class="block px-4 py-3 text-sm text-gray-300 hover:bg-third hover:text-primary transition">
+                                            Prewedding
+                                        </a>
+                                        <a href="#wedding"
+                                            class="block px-4 py-3 text-sm text-gray-300 hover:bg-third hover:text-primary transition border-t border-slate-900">
+                                            Wedding
+                                        </a>
+                                        <a href="#ultah"
+                                            class="block px-4 py-3 text-sm text-gray-300 hover:bg-third hover:text-primary transition border-t border-slate-900">
+                                            Ulang Tahun
+                                        </a>
+                                        <a href="#khitan"
+                                            class="block px-4 py-3 text-sm text-gray-300 hover:bg-third hover:text-primary transition border-t border-slate-900">
+                                            Khitan
+                                        </a>
+                                        <a href="#sports"
+                                            class="block px-4 py-3 text-sm text-gray-300 hover:bg-third hover:text-primary transition border-t border-slate-900">
+                                            Sports (Sunmori/Street)
+                                        </a>
+                                    </div>
+                                </div>
+                            </li>
+
+                            <li class="group">
+                                <a href="../index.html#services"
+                                    class="text-base text-white py-2 mx-8 flex hover:text-primary md:hidden lg:hidden">Layanan</a>
+                            </li>
+
+                            <li class="group">
+                                <a href="../index.html#portfolio"
+                                    class="text-base text-white py-2 mx-8 flex hover:text-primary">Portfolio</a>
+                            </li>
+
+                            <li class="group">
+                                <a href="../index.html#contact"
+                                    class="text-base text-white py-2 mx-8 flex hover:text-primary">Contact</a>
+                            </li>
+
+                        </ul>
+                    </nav>
+                </div>
+            </div>
+        </div>
+
+    </header>
+    <!-- header end -->
+
+    <!-- layanan/services start -->
+    <section id="services" class="pt-32 pb-24 bg-third">
+        <div class="container mx-auto px-4">
+
+            <div class="text-center mb-16">
+                <span class="text-primary font-bold uppercase text-sm tracking-widest">Layanan</span>
+                <h2 class="text-3xl md:text-4xl font-bold text-white mt-2">Pilih Paket Dokumentasi</h2>
+                <p class="text-slate-400 mt-2 max-w-lg mx-auto text-sm md:text-base">
+                    Setiap momen berharga layak diabadikan dengan cara terbaik. Temukan paket yang pas untuk kebutuhan
+                    acaramu.
+                </p>
+            </div>
+
+            <div class="flex flex-col gap-10 max-w-sm md:max-w-5xl mx-auto">
+
+                <!-- prewedding -->
+                <div id="prewedding"
+                    class="scroll-mt-42 bg-dark border border-slate-800 rounded-xl overflow-hidden flex flex-col md:flex-row hover:border-primary transition duration-300 shadow-xl group">
+                    <div class="w-full md:w-5/12 relative h-56 md:h-auto overflow-hidden">
+                        <img src="../img/fotolayanan/wedding.jpeg" alt="Prewedding"
+                            class="w-full max-h-90 object-cover transition duration-500 group-hover:scale-105">
+                        <div class="absolute inset-0 bg-black/20"></div>
+                    </div>
+
+                    <div class="w-full md:w-7/12 p-6 md:p-8 flex flex-col justify-center">
+                        <div class="flex justify-between items-start mb-2 ">
+                            <h3 class="text-2xl font-bold text-white">Prewedding Package</h3>
+                        </div>
+                        <div class="text-3xl font-bold text-primary mb-6 border-b border-slate-700 pb-6">Rp 1.000.000
+                        </div>
+
+                        <ul class="grid grid-cols-1 sm:grid-cols-2 gap-y-2 gap-x-4 mb-6 text-sm text-slate-300">
+                            <li class="flex items-center">
+                                <span class="text-primary mr-2">✓</span> Durasi Foto 3-4 Jam
+                            </li>
+                            <li class="flex items-center">
+                                <span class="text-primary mr-2">✓</span> 30 Foto Edited (Tone)
+                            </li>
+                            <li class="flex items-center">
+                                <span class="text-primary mr-2">✓</span> Semua File Original (GDrive)
+                            </li>
+                            <li class="flex items-center">
+                                <span class="text-primary mr-2">✓</span> Bebas Ganti Outfit (2-3 Look)
+                            </li>
+                            <li class="flex items-center">
+                                <span class="text-primary mr-2">✓</span> Maksimal 2 Lokasi Foto
+                            </li>
+                            <li class="flex items-center">
+                                <span class="text-primary mr-2">✓</span> Gratis Arahan Gaya
+                            </li>
+                        </ul>
+
+                        <a href="https://wa.me/6282213058458" target="_blank"
+                            class="text-center bg-primary hover:opacity-70 text-white py-2 rounded-lg text-sm font-semibold transition flex items-center justify-center gap-2">
+                            <svg class="w-4 h-4" fill="currentColor" viewBox="0 0 24 24">
+                                <path
+                                    d="M.057 24l1.687-6.163c-1.041-1.804-1.588-3.849-1.587-5.946.003-6.556 5.338-11.891 11.893-11.891 3.181.001 6.167 1.24 8.413 3.488 2.245 2.248 3.481 5.236 3.48 8.414-.003 6.557-5.338 11.892-11.893 11.892-1.99-.001-3.951-.5-5.688-1.448l-6.305 1.654zm6.597-3.807c1.676.995 3.276 1.591 5.392 1.592 5.448 0 9.886-4.434 9.889-9.885.002-5.462-4.415-9.89-9.881-9.892-5.452 0-9.887 4.434-9.889 9.884-.001 2.225.651 3.891 1.746 5.634l-.999 3.648 3.742-.981zm11.387-5.464c-.074-.124-.272-.198-.57-.347-.297-.149-1.758-.868-2.031-.967-.272-.099-.47-.149-.669.149-.198.297-.768.967-.941 1.165-.173.198-.347.223-.644.074-.297-.149-1.255-.462-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.297-.347.446-.521.151-.172.2-.296.3-.495.099-.198.05-.372-.025-.521-.075-.148-.669-1.611-.916-2.206-.242-.579-.487-.501-.669-.51l-.57-.01c-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.095 3.2 5.076 4.487.709.306 1.263.489 1.694.626.712.226 1.36.194 1.872.118.571-.085 1.758-.719 2.006-1.413.248-.695.248-1.29.173-1.414z" />
+                            </svg>
+                            Booking Sekarang
+                        </a>
+                    </div>
+                </div>
+
+                <!-- wedding -->
+                <div id="wedding"
+                    class="scroll-mt-42 bg-dark border border-slate-800 rounded-xl overflow-hidden flex flex-col md:flex-row-reverse hover:border-primary transition duration-300 shadow-xl group">
+                    <div class="w-full md:w-5/12 relative h-56 md:h-auto overflow-hidden">
+                        <img src="../img/fotolayanan/wedding2.jpeg" alt="Wedding"
+                            class="w-full h-90 object-cover transition duration-500 group-hover:scale-105">
+                        <div class="absolute inset-0 bg-black/20"></div>
+                    </div>
+
+                    <div class="w-full md:w-7/12 p-6 md:p-8 flex flex-col justify-center">
+                        <div class="flex justify-between items-start mb-2">
+                            <h3 class="text-2xl font-bold text-white">The Wedding Day</h3>
+                            <span class="bg-slate-700 text-slate-300 text-xs font-bold px-2 py-1 rounded">PREMIUM</span>
+                        </div>
+                        <div class="text-3xl font-bold text-primary mb-6 border-b border-slate-700 pb-6">Rp 3.500.000
+                        </div>
+
+                        <ul class="grid grid-cols-1 sm:grid-cols-2 gap-y-2 gap-x-4 mb-6 text-sm text-slate-300">
+                            <li class="flex items-center">
+                                <span class="text-primary mr-2">✓</span> Standby 6 Jam (Akad-Resepsi)
+                            </li>
+                            <li class="flex items-center">
+                                <span class="text-primary mr-2">✓</span> Unlimited Shutter/Foto
+                            </li>
+                            <li class="flex items-center">
+                                <span class="text-primary mr-2">✓</span> 70+ Foto Edited
+                            </li>
+                            <li class="flex items-center">
+                                <span class="text-primary mr-2">✓</span> Foto Momen, Candid & Keluarga
+                            </li>
+                            <li class="flex items-center">
+                                <span class="text-primary mr-2">✓</span> Semua File Mentah (GDrive)
+                            </li>
+                            <li class="flex items-center">
+                                <span class="text-primary mr-2">✓</span> Bonus Video Reels Pendek
+                            </li>
+                        </ul>
+
+                        <a href="https://wa.me/6282213058458" target="_blank"
+                            class="text-center bg-primary hover:opacity-70 text-white py-2 rounded-lg text-sm font-semibold transition flex items-center justify-center gap-2">
+                            <svg class="w-4 h-4" fill="currentColor" viewBox="0 0 24 24">
+                                <path
+                                    d="M.057 24l1.687-6.163c-1.041-1.804-1.588-3.849-1.587-5.946.003-6.556 5.338-11.891 11.893-11.891 3.181.001 6.167 1.24 8.413 3.488 2.245 2.248 3.481 5.236 3.48 8.414-.003 6.557-5.338 11.892-11.893 11.892-1.99-.001-3.951-.5-5.688-1.448l-6.305 1.654zm6.597-3.807c1.676.995 3.276 1.591 5.392 1.592 5.448 0 9.886-4.434 9.889-9.885.002-5.462-4.415-9.89-9.881-9.892-5.452 0-9.887 4.434-9.889 9.884-.001 2.225.651 3.891 1.746 5.634l-.999 3.648 3.742-.981zm11.387-5.464c-.074-.124-.272-.198-.57-.347-.297-.149-1.758-.868-2.031-.967-.272-.099-.47-.149-.669.149-.198.297-.768.967-.941 1.165-.173.198-.347.223-.644.074-.297-.149-1.255-.462-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.297-.347.446-.521.151-.172.2-.296.3-.495.099-.198.05-.372-.025-.521-.075-.148-.669-1.611-.916-2.206-.242-.579-.487-.501-.669-.51l-.57-.01c-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.095 3.2 5.076 4.487.709.306 1.263.489 1.694.626.712.226 1.36.194 1.872.118.571-.085 1.758-.719 2.006-1.413.248-.695.248-1.29.173-1.414z" />
+                            </svg>
+                            Booking Sekarang
+                        </a>
+                    </div>
+                </div>
+
+                <!-- ulang tahun -->
+                <div id="ultah"
+                    class="scroll-mt-42 bg-dark border border-slate-800 rounded-xl overflow-hidden flex flex-col md:flex-row hover:border-primary transition duration-300 shadow-xl group">
+                    <div class="w-full md:w-5/12 relative h-56 md:h-auto overflow-hidden">
+                        <img src="../img/fotolayanan/wedding3.jpeg" alt="Ulang Tahun"
+                            class="w-full h-90 object-cover transition duration-500 group-hover:scale-105">
+                        <div class="absolute inset-0 bg-black/20"></div>
+                    </div>
+
+                    <div class="w-full md:w-7/12 p-6 md:p-8 flex flex-col justify-center">
+                        <h3 class="text-2xl font-bold text-white mb-2">Birthday Party</h3>
+                        <div class="text-3xl font-bold text-primary mb-6 border-b border-slate-700 pb-6">Rp 800.000
+                        </div>
+
+                        <ul class="grid grid-cols-1 sm:grid-cols-2 gap-y-2 gap-x-4 mb-6 text-sm text-slate-300">
+                            <li class="flex items-center">
+                                <span class="text-primary mr-2">✓</span> Durasi Foto 2 Jam
+                            </li>
+                            <li class="flex items-center">
+                                <span class="text-primary mr-2">✓</span> Foto Momen Inti Acara
+                            </li>
+                            <li class="flex items-center">
+                                <span class="text-primary mr-2">✓</span> Sesi Foto Keluarga/Teman
+                            </li>
+                            <li class="flex items-center">
+                                <span class="text-primary mr-2">✓</span> 15 Foto Edited Simpel
+                            </li>
+                            <li class="flex items-center">
+                                <span class="text-primary mr-2">✓</span> File Original Kirim H+1
+                            </li>
+                            <li class="flex items-center">
+                                <span class="text-primary mr-2">✓</span> Via Google Drive
+                            </li>
+                        </ul>
+
+                        <a href="https://wa.me/6282213058458" target="_blank"
+                            class="text-center bg-primary hover:opacity-70 text-white py-2 rounded-lg text-sm font-semibold transition flex items-center justify-center gap-2">
+                            <svg class="w-4 h-4" fill="currentColor" viewBox="0 0 24 24">
+                                <path
+                                    d="M.057 24l1.687-6.163c-1.041-1.804-1.588-3.849-1.587-5.946.003-6.556 5.338-11.891 11.893-11.891 3.181.001 6.167 1.24 8.413 3.488 2.245 2.248 3.481 5.236 3.48 8.414-.003 6.557-5.338 11.892-11.893 11.892-1.99-.001-3.951-.5-5.688-1.448l-6.305 1.654zm6.597-3.807c1.676.995 3.276 1.591 5.392 1.592 5.448 0 9.886-4.434 9.889-9.885.002-5.462-4.415-9.89-9.881-9.892-5.452 0-9.887 4.434-9.889 9.884-.001 2.225.651 3.891 1.746 5.634l-.999 3.648 3.742-.981zm11.387-5.464c-.074-.124-.272-.198-.57-.347-.297-.149-1.758-.868-2.031-.967-.272-.099-.47-.149-.669.149-.198.297-.768.967-.941 1.165-.173.198-.347.223-.644.074-.297-.149-1.255-.462-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.297-.347.446-.521.151-.172.2-.296.3-.495.099-.198.05-.372-.025-.521-.075-.148-.669-1.611-.916-2.206-.242-.579-.487-.501-.669-.51l-.57-.01c-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.095 3.2 5.076 4.487.709.306 1.263.489 1.694.626.712.226 1.36.194 1.872.118.571-.085 1.758-.719 2.006-1.413.248-.695.248-1.29.173-1.414z" />
+                            </svg>
+                            Booking Sekarang
+                        </a>
+                    </div>
+                </div>
+
+                <!-- khitan -->
+                <div id="khitan"
+                    class="scroll-mt-42 bg-dark border border-slate-800 rounded-xl overflow-hidden flex flex-col md:flex-row-reverse hover:border-primary transition duration-300 shadow-xl group">
+                    <div class="w-full md:w-5/12 relative h-56 md:h-auto overflow-hidden">
+                        <img src="../img/fotolayanan/wedding4.jpeg" alt="Khitan"
+                            class="w-full h-90 object-cover transition duration-500 group-hover:scale-105">
+                        <div class="absolute inset-0 bg-black/20"></div>
+                    </div>
+                    <div class="w-full md:w-7/12 p-6 md:p-8 flex flex-col justify-center">
+                        <h3 class="text-2xl font-bold text-white mb-2">Tasyakur Khitan</h3>
+                        <div class="text-3xl font-bold text-primary mb-6 border-b border-slate-700 pb-6">Rp 1.200.000
+                        </div>
+
+                        <ul class="grid grid-cols-1 sm:grid-cols-2 gap-y-2 gap-x-4 mb-6 text-sm text-slate-300">
+                            <li class="flex items-center">
+                                <span class="text-primary mr-2">✓</span> Durasi Foto 3-4 Jam
+                            </li>
+                            <li class="flex items-center">
+                                <span class="text-primary mr-2">✓</span> 30 Foto Edited (Grading)
+                            </li>
+                            <li class="flex items-center">
+                                <span class="text-primary mr-2">✓</span> Sesi Portrait Keluarga
+                            </li>
+                            <li class="flex items-center">
+                                <span class="text-primary mr-2">✓</span> Foto Suasana & Tamu
+                            </li>
+                            <li class="flex items-center">
+                                <span class="text-primary mr-2">✓</span> File High Res Siap Cetak
+                            </li>
+                            <li class="flex items-center">
+                                <span class="text-primary mr-2">✓</span> Backup Aman di Cloud
+                            </li>
+                        </ul>
+
+                        <a href="https://wa.me/6282213058458" target="_blank"
+                            class="text-center bg-primary hover:opacity-70 text-white py-2 rounded-lg text-sm font-semibold transition flex items-center justify-center gap-2">
+                            <svg class="w-4 h-4" fill="currentColor" viewBox="0 0 24 24">
+                                <path
+                                    d="M.057 24l1.687-6.163c-1.041-1.804-1.588-3.849-1.587-5.946.003-6.556 5.338-11.891 11.893-11.891 3.181.001 6.167 1.24 8.413 3.488 2.245 2.248 3.481 5.236 3.48 8.414-.003 6.557-5.338 11.892-11.893 11.892-1.99-.001-3.951-.5-5.688-1.448l-6.305 1.654zm6.597-3.807c1.676.995 3.276 1.591 5.392 1.592 5.448 0 9.886-4.434 9.889-9.885.002-5.462-4.415-9.89-9.881-9.892-5.452 0-9.887 4.434-9.889 9.884-.001 2.225.651 3.891 1.746 5.634l-.999 3.648 3.742-.981zm11.387-5.464c-.074-.124-.272-.198-.57-.347-.297-.149-1.758-.868-2.031-.967-.272-.099-.47-.149-.669.149-.198.297-.768.967-.941 1.165-.173.198-.347.223-.644.074-.297-.149-1.255-.462-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.297-.347.446-.521.151-.172.2-.296.3-.495.099-.198.05-.372-.025-.521-.075-.148-.669-1.611-.916-2.206-.242-.579-.487-.501-.669-.51l-.57-.01c-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.095 3.2 5.076 4.487.709.306 1.263.489 1.694.626.712.226 1.36.194 1.872.118.571-.085 1.758-.719 2.006-1.413.248-.695.248-1.29.173-1.414z" />
+                            </svg>
+                            Booking Sekarang
+                        </a>
+                    </div>
+                </div>
+
+                <!-- sports -->
+                <div id="sports"
+                    class="scroll-mt-42 bg-dark border border-slate-800 rounded-xl overflow-hidden flex flex-col md:flex-row hover:border-primary transition duration-300 shadow-xl group ring-1 ring-primary/30">
+                    <div class="w-full md:w-5/12 relative h-56 md:h-auto overflow-hidden">
+                        <img src="../img/fotolayanan/sport4.jpg" alt="Sunmori"
+                            class="w-full h-90 object-cover transition duration-500 group-hover:scale-105">
+                        <div
+                            class="absolute top-0 left-0 bg-primary text-white text-xs font-bold px-3 py-1 rounded-br-lg z-10">
+                            MOST POPULAR
+                        </div>
+                    </div>
+                    <div class="w-full md:w-7/12 p-6 md:p-8 flex flex-col justify-center">
+                        <h3 class="text-2xl font-bold text-white mb-1">Sunmori / Street</h3>
+                        <p class="text-xs text-slate-400 mb-3">Foto aksi riding dengan kualitas tajam.</p>
+
+                        <div class="flex items-end mb-4">
+                            <div class="text-3xl font-bold text-primary">Rp 20.000</div>
+                            <span class="text-slate-400 text-sm ml-2 mb-1">/ Foto (File)</span>
+                        </div>
+
+                        <div class="bg-slate-900/50 p-3 rounded-lg border border-slate-700 mb-5">
+                            <ul class="space-y-2 text-sm text-slate-300">
+                                <li class="flex items-start">
+                                    <span class="text-primary mr-2 text-lg">•</span>
+                                    <span><b>Reguler:</b> Hasil foto di <a href=""
+                                            class="underline font-bold">instagram</a> (Watermark Kecil)</span>
+                                </li>
+                                <li class="flex items-start">
+                                    <span class="text-primary mr-2 text-lg">•</span>
+                                    <span><b>Support:</b> Bayar lebih (Seikhlasnya) untuk dapat <b>File Original Tanpa
+                                            Watermark</b> & Resolusi Penuh.</span>
+                                </li>
+                            </ul>
+                        </div>
+
+                        <a href="https://wa.me/6282213058458" target="_blank"
+                            class="text-center bg-primary hover:opacity-70 text-white py-2 rounded-lg text-sm font-semibold transition flex items-center justify-center gap-2">
+                            <svg class="w-4 h-4" fill="currentColor" viewBox="0 0 24 24">
+                                <path
+                                    d="M.057 24l1.687-6.163c-1.041-1.804-1.588-3.849-1.587-5.946.003-6.556 5.338-11.891 11.893-11.891 3.181.001 6.167 1.24 8.413 3.488 2.245 2.248 3.481 5.236 3.48 8.414-.003 6.557-5.338 11.892-11.893 11.892-1.99-.001-3.951-.5-5.688-1.448l-6.305 1.654zm6.597-3.807c1.676.995 3.276 1.591 5.392 1.592 5.448 0 9.886-4.434 9.889-9.885.002-5.462-4.415-9.89-9.881-9.892-5.452 0-9.887 4.434-9.889 9.884-.001 2.225.651 3.891 1.746 5.634l-.999 3.648 3.742-.981zm11.387-5.464c-.074-.124-.272-.198-.57-.347-.297-.149-1.758-.868-2.031-.967-.272-.099-.47-.149-.669.149-.198.297-.768.967-.941 1.165-.173.198-.347.223-.644.074-.297-.149-1.255-.462-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.297-.347.446-.521.151-.172.2-.296.3-.495.099-.198.05-.372-.025-.521-.075-.148-.669-1.611-.916-2.206-.242-.579-.487-.501-.669-.51l-.57-.01c-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.095 3.2 5.076 4.487.709.306 1.263.489 1.694.626.712.226 1.36.194 1.872.118.571-.085 1.758-.719 2.006-1.413.248-.695.248-1.29.173-1.414z" />
+                            </svg>
+                            Chat untuk Beli File
+                        </a>
+                    </div>
+                </div>
+
+            </div>
+
+            <div class="mt-10 text-center">
+                <p class="text-secondary mb-4">Masih ragu? Lihat hasil lainnya.</p>
+                <a href="https://www.instagram.com/iqbalphotography_28/" target="_blank"
+                    class="inline-block text-primary border border-primary px-6 py-2 rounded-full hover:bg-primary hover:text-white transition duration-300">Lihat
+                    Instagram &rarr;</a>
+            </div>
+        </div>
+    </section>
+    <!-- layanan/services end -->
+
+    <!-- footer start -->
+    <footer class="bg-black pt-24 pb-12 text-secondary">
+        <div class="container mx-auto px-6">
+            <div class="flex flex-wrap justify-center">
+                <div class="w-full md:w-1/3 mb-12">
+                    <h2 class="text-2xl font-bold mb-4">
+                        <span class="text-white">Iqbal</span><span class="text-primary">photography28</span>
+                    </h2>
+                    <p class="text-sm text-secondary text-justify max-w-xs">
+                        Karena setiap detik memiliki cerita, saya hadir untuk memastikan kenangan Anda terbingkai secara
+                        abadi dalam kualitas dokumentasi terbaik.
+                    </p>
+                </div>
+
+                <div class="w-full md:w-1/3 mb-12">
+                    <h3 class="text-xl font-semibold text-white mb-5">
+                        Layanan
+                    </h3>
+                    <ul class="space-y-2">
+                        <li>
+                            <a href="#prewedding" class="text-sm hover:text-primary transition">
+                                Prewedding
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#wedding" class="text-sm hover:text-primary transition">
+                                Wedding
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#ultah" class="text-sm hover:text-primary transition">
+                                Ulang Tahun
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#khitan" class="text-sm hover:text-primary transition">
+                                Khitan
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#sports" class="text-sm hover:text-primary transition">
+                                Sports
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+
+                <div class="w-full md:w-1/3 mb-12">
+                    <h3 class="text-xl font-semibold text-white mb-5">
+                        Tautan
+                    </h3>
+                    <ul class="space-y-2">
+                        <li><a href="../index.html#home" class="text-sm hover:text-primary transition">Beranda</a></li>
+                        <li><a href="../index.html#about" class="text-sm hover:text-primary transition">Tentang</a></li>
+                        <li><a href="../index.html#services" class="text-sm hover:text-primary transition">Layanan</a></li>
+                        <li><a href="../index.html#portfolio" class="text-sm hover:text-primary transition">Portfolio</a></li>
+                        <li><a href="../index.html#contact" class="text-sm hover:text-primary transition">Contact</a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+
+        <div class="flex flex-col md:flex-row justify-center gap-1 w-full pt-10 border-t border-slate-700">
+            <p class="text-center text-xs text-slate-500"> ©2026 <a href="https://www.instagram.com/ri_zzd/"
+                    class="text-white font-semibold">Fakhri Zaidi Djulistiawan</a>.</p>
+            <p class="text-center text-xs text-slate-500">Built with <a href="https://tailwindcss.com" target="_blank"
+                    class="text-sky-500 font-semibold hover:underline">Tailwind CSS</a>. All rights reserved.</p>
+        </div>
+        </div>
+
+    </footer>
+    <!-- footer end -->
+
+    <!-- back to top start -->
+    <a href="#services"
+        class="fixed hidden z-[9999] bottom-4 right-4 h-14 w-14 bg-primary rounded-full p-4 hover:animate-pulse"
+        id="to-top">
+        <svg class="rotate-180" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7"></path>
+        </svg>
+    </a>
+    <!-- back to top end -->
+
+
+    <script src="../js/script.js"></script>
+</body>
+
+</html>
